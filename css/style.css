@@ -912,24 +912,19 @@ footer .copyright{
     display: block;
     max-width: 100%;
     
-    
   }
 
   .ogs h1 {
     font-size: 15px;
     line-height:18px;
     padding-left: 180px;
-    /* padding-bottom: 420px; */
     display: none;
-
-
   }
 
   .ogs h2 {
     font-size: 11px;
     line-height:28px;
     padding-left: 180px;
-    /* padding-bottom: 480px; */
     display: none;
 
   }
