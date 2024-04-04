@@ -238,6 +238,8 @@ body {
   justify-content: center;
   position: relative;
   background-repeat: no-repeat;
+  max-width: 100%;  
+
 }
 
 
