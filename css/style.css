@@ -816,6 +816,22 @@ footer .copyright {
   
 }
 
+@media(max-width:850px) {
+  #hero {
+    background-image: url("../img/OOG.png");
+
+    background-position: 24%;
+
+    width: 100%;
+    padding-left: 250px;
+    padding-bottom: 599px;
+
+    
+    /* background-size: contain; */
+
+  }
+
+}
 
 
 @media(max-width: 477px){
