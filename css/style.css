@@ -807,6 +807,13 @@ footer .copyright {
   .section-p1 {
     padding: 40px 18px;
   }
+
+  
+#hero {
+  max-width: 100%;
+}
+
+  
 }
 
 
