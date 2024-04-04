@@ -824,7 +824,7 @@ footer .copyright {
     background-position: 24%;
 
     width: 100%;
-    padding-left: 380px;
+    padding-left: 350px;
     padding-bottom: 599px;
 
   }
@@ -843,9 +843,11 @@ footer .copyright {
     padding-top: 1px;
     font-family: OGfont;
     font-weight: 350;
-    font-size: 75px;
+    font-size: 79px;
   }
-  
+  #hero p{
+    padding-left: 30px;
+  }
 }
 
 @media(max-width: 477px){
