@@ -815,15 +815,15 @@ footer .copyright {
 
   
 }
-
-@media(max-width:850px) {
+/* TAB */
+@media(max-width:1024px) {
   #hero {
     background-image: url("../img/OOG.png");
 
     background-position: 24%;
 
     width: 100%;
-    padding-left: 250px;
+    padding-left: 350px;
     padding-bottom: 599px;
 
     
@@ -832,6 +832,8 @@ footer .copyright {
   }
 
 }
+
+
 
 
 @media(max-width: 477px){
