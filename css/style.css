@@ -16,7 +16,8 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  
+  display: block;
+  max-width: 100%
 }
 
 .slider img {
@@ -237,7 +238,8 @@ body {
   justify-content: center;
   position: relative;
   background-repeat: no-repeat;
-  
+  max-width: 100%;  
+
 }
 
 
@@ -277,7 +279,7 @@ body {
   
 }
 
-/*feature part*/
+/feature part/
 
 #feature {
   display: flex;
@@ -480,7 +482,7 @@ body {
   align-items: flex-start;
   background-image: url("../img/banner/b17\ copy.png");
   min-width: 660px;
-  /*580*/
+  /580/
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -533,7 +535,7 @@ body {
   align-items: flex-start;
   background-image: url("../img/banner/b7.jpg");
   min-width: 32%;
-  /*30%*/
+  /30%/
   height: 30vh;
   background-size: cover;
   background-position: center;
@@ -563,7 +565,7 @@ body {
   font-size: 15px;
 }
 
-/*Newsletter*/
+/Newsletter/
 
 #newsletter {
   display: flex;
@@ -806,10 +808,13 @@ footer .copyright {
     padding: 40px 18px;
   }
 
-
-
+  
+#hero {
+  max-width: 100%;
 }
 
+  
+}
 /* TAB */
 
 @media(max-width:1024px) {
@@ -838,88 +843,21 @@ footer .copyright {
     padding-top: 1px;
     font-family: OGfont;
     font-weight: 350;
-    font-size: 75px;
+    font-size: 79px;
   }
-  
- 
-
+  #hero p{
+    padding-left: 30px;
+  }
 }
 
-
-/* #hero {
-  background-image: url("../img/og2.png");
-  height: 90vh;
-  width: 100%;
-  background-size: cover;
-  background-position: top 25% right 0;
-  padding-left: 960px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  position: relative;
-  background-repeat: no-repeat;
-  
-}
-
-
-
-#hero h2 {
-  padding-top: 60px;
-  font-family: OGfont;
-  font-size: 35px;
-  font-weight: 300;
-
-
-}
-
-#hero h1 {
-  color:#704264;
-  padding-top: 1px;
-  font-family: OGfont;
-  font-weight: 350;
-  font-size: 61px;
-}
-
-
-
-
-#hero button {
-  background-image: url("../img/button\ copy.png");
-  background-color: transparent;
-  color: #704264;
-  border: 0;
-  padding: 14px 80px 14px 65px;
-  background-repeat: no repeat;
-  cursor: pointer;
-  font-weight: 900;
-  font-size: 17px;
-  text-align: right;
-} */
-
-
-@media(max-width: 477px) {
-
-
-  /* .pro {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 13px;
-    width: 194px;
-  } */
+@media(max-width: 477px){
 
   .section-p1{
-    padding: 0px;
+    padding: 20px;
   }
-
-  .section-p1 h2{
-    padding-top: 30px;
-  }
-
   #header{
     padding: 10px 30px;
   }
-
  h1{
   font-size: 38px;
  }
@@ -927,7 +865,6 @@ footer .copyright {
   h2{
     font-size: 32px;
   }
-
   #hero{
     padding: 0 20px;
     background-position: 50%;
@@ -936,87 +873,22 @@ footer .copyright {
   #feature{
     justify-content: space-between;
   }
-
   #feature .fe-box{
     width: 155px;
     margin: 0 0 15px 0;
   }
 
 
-  /* #product1 .pro{
+  #product1 .pro{
 
     width: 100%;
-  } */
-
+  }
 
  
 
-  
 
 
-.pro-container {
-  display: flex;
-  flex-direction: row;
-}
-
-#product1 .pro{
-  width:20%;
-  min-width:150px;
-  min-height:30vh;
-  padding: 8px 8px;
-  border: 1px solid #cce7d0;
-  margin-top: -15px;
-  flex-wrap: wrap;
-
-}
-
-
-#product1 .pro img {
-  width: 100%;
-}
-
-
-#product1 .pro .des {
- padding: 2px 0 ;
-}
-
-#product1 .pro .des h5 {
-  padding-top: 1.5px;
-  font-size: 9px;
-}
-
-#product1 .pro .des h4{
-  font-size:11px;
-
-}
-
-#product1 .pro .des i {
-font-size: 7.5px;
-}
-
-#product1 .pro .des span{
-  font-size: 9px;
-}
-
-#product1 .pro .cart {
-  width: 30px;
-  height: 30px;
-  bottom: 16px;
-  line-height: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
- #banner{
+   #banner{
     height: 40vh;
    }
 
@@ -1044,7 +916,6 @@ font-size: 7.5px;
    #newletter{
      padding: 40px 20px;
    }
-
 #newsletter .form{
   width: 100%;
 }
@@ -1056,14 +927,6 @@ footer .copyright{
 
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1084,7 +947,6 @@ footer .copyright{
   max-width: 100%;
 }
 
- 
 
 @media (max-width: 748px) {
   .ogs{
@@ -1092,24 +954,19 @@ footer .copyright{
     display: block;
     max-width: 100%;
     
-    
   }
 
   .ogs h1 {
     font-size: 15px;
     line-height:18px;
     padding-left: 180px;
-    /* padding-bottom: 420px; */
     display: none;
-
-
   }
 
   .ogs h2 {
     font-size: 11px;
     line-height:28px;
     padding-left: 180px;
-    /* padding-bottom: 480px; */
     display: none;
 
   }
@@ -1150,4 +1007,3 @@ footer .copyright{
   }
 
 }
-  
