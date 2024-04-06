@@ -811,26 +811,13 @@ footer .copyright {
 
 /* small size laptop */
 
-
-@media(max-width:1370) {
-
-  #hero {
-    background-image: url("../img/OOG.png");
-
-    background-position: 24%;
-
-    width: 100%;
-    padding-left: 270px;
-    padding-bottom: 599px;
-
-  }
-
   #hero h2 {
-    padding-top: 60px;
+    padding-top: 70px;
     font-family: OGfont;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 300;
-  
+    padding-bottom: 40px;
+
   
   }
 
@@ -839,13 +826,22 @@ footer .copyright {
     padding-top: 1px;
     font-family: OGfont;
     font-weight: 350;
-    font-size: 65px;
+    font-size: 90px;
   }
   
+  #hero p {
+    padding-top: 16px;
+    font-size: 25px;
+
+}
+
+#hero button {
+  padding-top: 15px;
 
 
 }
 
+}
 
 
 
