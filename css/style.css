@@ -809,6 +809,48 @@ footer .copyright {
 
 }
 
+/* small size laptop */
+
+
+@media(max-width:1370) {
+
+  #hero {
+    background-image: url("../img/OOG.png");
+
+    background-position: 24%;
+
+    width: 100%;
+    padding-left: 270px;
+    padding-bottom: 599px;
+
+  }
+
+  #hero h2 {
+    padding-top: 60px;
+    font-family: OGfont;
+    font-size: 40px;
+    font-weight: 300;
+  
+  
+  }
+
+  #hero h1 {
+    color:#704264;
+    padding-top: 1px;
+    font-family: OGfont;
+    font-weight: 350;
+    font-size: 65px;
+  }
+  
+
+
+}
+
+
+
+
+
+
 /* TAB */
 
 @media(max-width:1024px) {
