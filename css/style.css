@@ -487,7 +487,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url("../img/banner/b10.jpg");
+  background-image: url("../img/banner/b10.jpg")
 }
 
 #sm-banner h4 {
@@ -531,7 +531,6 @@ body {
   justify-content: center;
   padding: 20px;
   align-items: flex-start;
-  background-image: url("../img/banner/b7.jpg");
   min-width: 32%;
   height: 30vh;
   background-size: cover;
@@ -540,13 +539,6 @@ body {
 
 }
 
-#banner3 .banner-box2 {
-  background-image: url("../img/banner/b4.jpg");
-}
-
-#banner3 .banner-box3 {
-  background-image: url("../img/banner/b18.jpg");
-}
 
 
 
@@ -809,7 +801,22 @@ footer .copyright {
 
 }
 
+
 /* small size laptop */
+
+
+
+@media(max-width:1372px) {
+  #hero {
+    background-image: url("../img/OOG.png");
+
+    background-position: 24%;
+
+    width: 100%;
+    padding-left: 490px;
+    padding-bottom: 299px;
+
+  }
 
   #hero h2 {
     padding-top: 70px;
@@ -842,9 +849,6 @@ footer .copyright {
 }
 
 }
-
-
-
 
 
 /* TAB */
@@ -989,11 +993,6 @@ footer .copyright {
   } */
 
 
- 
-
-
-
-
 .pro-container {
   display: flex;
   flex-direction: row;
@@ -1094,6 +1093,16 @@ footer .copyright{
 #sm-banner{
   padding: 0 10px 0 10px;
 }
+
+#sustain{
+  padding: 0 5px 0 5px;
+
+}
+
+
+
+
+
 
 
 
